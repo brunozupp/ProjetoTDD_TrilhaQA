@@ -3,13 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{18C37DB9-77AD-44F8-B20B-CDCE2D2BCDB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculadora", "Calculadora\Calculadora.csproj", "{18C37DB9-77AD-44F8-B20B-CDCE2D2BCDB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.Tests", "Calculadora.Tests\Calculadora.Tests.csproj", "{179AB0EE-863F-4BFF-87BF-6822188C1DF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculadora.Tests", "Calculadora.Tests\Calculadora.Tests.csproj", "{179AB0EE-863F-4BFF-87BF-6822188C1DF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAsserts", "DemoAsserts\DemoAsserts.csproj", "{6219327A-DF25-4CBA-8838-FF8A0DB43552}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAsserts", "DemoAsserts\DemoAsserts.csproj", "{6219327A-DF25-4CBA-8838-FF8A0DB43552}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoAsserts.Tests", "DemoAsserts.Tests\DemoAsserts.Tests.csproj", "{F83EB0DC-9DAB-451A-92CD-A9CAADE672BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoAsserts.Tests", "DemoAsserts.Tests\DemoAsserts.Tests.csproj", "{F83EB0DC-9DAB-451A-92CD-A9CAADE672BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverviewNUnitsAttributes.Tests", "OverviewNUnitsAttributes.Tests\OverviewNUnitsAttributes.Tests.csproj", "{1B7106F9-96E9-4E6D-94D6-E04AA272A1DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseTestCase", "UseTestCase\UseTestCase.csproj", "{5BB844C2-53EC-49B4-A93A-B6377E9E82C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseTestCase.Tests", "UseTestCase.Tests\UseTestCase.Tests.csproj", "{67EE78E1-67D6-485F-8686-3E2CED07F1CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{F83EB0DC-9DAB-451A-92CD-A9CAADE672BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F83EB0DC-9DAB-451A-92CD-A9CAADE672BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F83EB0DC-9DAB-451A-92CD-A9CAADE672BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7106F9-96E9-4E6D-94D6-E04AA272A1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7106F9-96E9-4E6D-94D6-E04AA272A1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7106F9-96E9-4E6D-94D6-E04AA272A1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B7106F9-96E9-4E6D-94D6-E04AA272A1DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB844C2-53EC-49B4-A93A-B6377E9E82C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB844C2-53EC-49B4-A93A-B6377E9E82C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB844C2-53EC-49B4-A93A-B6377E9E82C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB844C2-53EC-49B4-A93A-B6377E9E82C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67EE78E1-67D6-485F-8686-3E2CED07F1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EE78E1-67D6-485F-8686-3E2CED07F1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EE78E1-67D6-485F-8686-3E2CED07F1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EE78E1-67D6-485F-8686-3E2CED07F1CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
